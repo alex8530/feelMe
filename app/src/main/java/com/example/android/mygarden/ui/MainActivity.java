@@ -58,6 +58,7 @@ public class MainActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         runAlarmManagerWithDefaultTile20Sec();
+        setTitle("FeelMe");
         // The main activity displays the garden as a grid layout recycler view
         mGardenRecyclerView = (RecyclerView) findViewById(R.id.plants_list_recycler_view);
         mGardenRecyclerView.setLayoutManager(

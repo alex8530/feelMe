@@ -21,7 +21,7 @@
     android:initialLayout="@layout/plant_widget"
     android:minHeight="40dp"
     android:minWidth="40dp"
-    android:previewImage="@drawable/vine_1"
+    android:previewImage="@drawable/asd"
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="1000"
     android:widgetCategory="home_screen" />

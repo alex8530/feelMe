@@ -38,7 +38,7 @@ public class AddPlantActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_plant);
-
+this.setTitle("Add Drug");
 
         // Plant types are displayed as a recycler view using PlantTypesAdapter
         mTypesAdapter = new PlantTypesAdapter(this);
