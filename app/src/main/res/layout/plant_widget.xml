@@ -24,10 +24,10 @@
 
     <ImageView
         android:id="@+id/widget_water_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/water_drop_blue" />
+        android:src="@drawable/icon5" />
 
     <ImageView
         android:id="@+id/widget_plant_image"
