@@ -23,4 +23,9 @@ String type = plantTypes.getString(0); // this will return "vine"
         <item>vine</item>
         <item>cactus</item>
     </array>
+
+    <string-array name="spiner">
+        <item>Hospital</item>
+        <item>Home</item>
+    </string-array>
 </resources>

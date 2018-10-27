@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homePage"
+        android:orderInCategory="1"
+        android:title="HomePage" />
+
+
+
+    <item
+        android:id="@+id/patientFacilites"
+        android:orderInCategory="2"
+        android:title="Patient Facilites" />
+
+
+
+    <item
+        android:id="@+id/earlyInspection"
+        android:orderInCategory="5"
+        android:title="Early Inspection" />
+
+    <item
+        android:id="@+id/financialSupport"
+        android:orderInCategory="3"
+        android:title="Financial Support" />
+
+    <item
+        android:id="@+id/educatPeople"
+        android:orderInCategory="3"
+        android:title="Educat People" />
+
+    <item
+        android:id="@+id/videos"
+        android:orderInCategory="12"
+        android:title="Videos/stories" />
+
+</menu>

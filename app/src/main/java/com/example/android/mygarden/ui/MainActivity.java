@@ -32,12 +32,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.android.mygarden.PlantWateringService;
 import com.example.android.mygarden.R;
 import com.example.android.mygarden.VideoViewActivity;
+import com.example.android.mygarden.activity_videosa_and_stories;
+import com.example.android.mygarden.patient_facilities;
+import com.example.android.mygarden.video_list_activity;
 
 import static com.example.android.mygarden.PlantWateringService.ACTION_UPDATE_PLANT_WIDGETS;
 import static com.example.android.mygarden.provider.PlantContract.BASE_CONTENT_URI;
@@ -69,8 +75,7 @@ public class MainActivity
         mGardenRecyclerView.setAdapter(mAdapter);
 
         getSupportLoaderManager().initLoader(GARDEN_LOADER_ID, null, this);
-        startActivity(new Intent(this,VideoViewActivity.class).putExtra("index",0));
-    }
+     }
 
     @Override
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
@@ -114,5 +119,57 @@ public class MainActivity
            alarm.cancel(pending);
           int interval = 1000;
         alarm.setRepeating(AlarmManager.ELAPSED_REALTIME, SystemClock.elapsedRealtime(),interval, pending);
+    }
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int menuItemThatSelected = item.getItemId();
+
+        switch (menuItemThatSelected) {
+            //if click on popular item in menu the app show popular movies
+            case R.id.homePage:
+                Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+                break;
+
+            //if click on popular item in menu the app show top rated movies
+            case R.id.videos:
+                Intent intentvideos = new Intent(MainActivity.this,activity_videosa_and_stories.class);
+                startActivity(intentvideos);
+                finish();
+                break;
+            //if click on popular item in menu the app show top rated movies
+            case R.id.patientFacilites:
+                Intent intentpatientFacilites = new Intent(MainActivity.this, patient_facilities.class);
+                startActivity(intentpatientFacilites);
+                break;
+
+            case R.id.financialSupport:
+                Intent intentfinancialSupport = new Intent(MainActivity.this, patient_facilities.class);
+                startActivity(intentfinancialSupport);                break;
+
+            case R.id.educatPeople:
+                Toast.makeText(this, "educatPeople is cliked", Toast.LENGTH_SHORT).show();
+                //todo maram 1
+                break;
+
+
+//            case R.id.map:
+//                Toast.makeText(this, "map is cliked", Toast.LENGTH_SHORT).show();
+//                break;
+            default:
+                Context context2 = MainActivity.this;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
