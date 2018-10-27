@@ -38,6 +38,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.android.mygarden.Activity_early_detection;
+import com.example.android.mygarden.AwarenessActivity;
 import com.example.android.mygarden.PlantWateringService;
 import com.example.android.mygarden.R;
 import com.example.android.mygarden.VideoViewActivity;
@@ -139,15 +141,13 @@ public class MainActivity
             case R.id.homePage:
                 Intent intent = new Intent(MainActivity.this, MainActivity.class);
                 startActivity(intent);
-                finish();
-                break;
+                 break;
 
             //if click on popular item in menu the app show top rated movies
             case R.id.videos:
                 Intent intentvideos = new Intent(MainActivity.this,activity_videosa_and_stories.class);
                 startActivity(intentvideos);
-                finish();
-                break;
+                 break;
             //if click on popular item in menu the app show top rated movies
             case R.id.patientFacilites:
                 Intent intentpatientFacilites = new Intent(MainActivity.this, patient_facilities.class);
@@ -156,12 +156,21 @@ public class MainActivity
 
             case R.id.financialSupport:
                 Intent intentfinancialSupport = new Intent(MainActivity.this, patient_facilities.class);
-                startActivity(intentfinancialSupport);                break;
+                startActivity(intentfinancialSupport);
+                break;
 
             case R.id.educatPeople:
                 Toast.makeText(this, "educatPeople is cliked", Toast.LENGTH_SHORT).show();
-                //todo maram 1
-                break;
+
+                Intent educatPeopleIntent = new Intent(MainActivity.this, AwarenessActivity.class);
+                startActivity(educatPeopleIntent);
+                 break;
+
+                case R.id.earlyInspection:
+
+                    Intent earlyIntent = new Intent(MainActivity.this, Activity_early_detection.class);
+                    startActivity(earlyIntent);
+                     break;
 
 
 //            case R.id.map:

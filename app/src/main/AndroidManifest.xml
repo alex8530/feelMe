@@ -49,7 +49,9 @@
         <activity android:name=".activity_videosa_and_stories" />
         <activity android:name=".video_list_activity" />
         <activity android:name=".activity_story_list" />
-        <activity android:name=".patient_facilities"></activity>
+        <activity android:name=".patient_facilities" />
+        <activity android:name=".Activity_early_detection" />
+        <activity android:name=".AwarenessActivity"></activity>
     </application>
 
 </manifest>
