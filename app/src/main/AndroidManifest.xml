@@ -51,7 +51,8 @@
         <activity android:name=".activity_story_list" />
         <activity android:name=".patient_facilities" />
         <activity android:name=".Activity_early_detection" />
-        <activity android:name=".AwarenessActivity"></activity>
+        <activity android:name=".AwarenessActivity" />
+        <activity android:name=".activity_story_details"></activity>
     </application>
 
 </manifest>

@@ -45,8 +45,8 @@
 
         <ImageView
             android:id="@+id/peson1"
-            android:layout_width="40dp"
-            android:layout_height="48dp"
+            android:layout_width="57dp"
+            android:layout_height="46dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
@@ -93,8 +93,8 @@
 
         <ImageView
             android:id="@+id/person2"
-            android:layout_width="40dp"
-            android:layout_height="48dp"
+            android:layout_width="56dp"
+            android:layout_height="46dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
@@ -140,8 +140,8 @@
 
         <ImageView
             android:id="@+id/person3"
-            android:layout_width="40dp"
-            android:layout_height="48dp"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"

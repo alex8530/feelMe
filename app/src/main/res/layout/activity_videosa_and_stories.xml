@@ -29,18 +29,18 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="297dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="311dp"
+        android:layout_height="71dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@color/primary_light_50"
         android:onClick="onVideosCliced"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
@@ -48,10 +48,10 @@
             android:id="@+id/plant_type_image"
             android:layout_width="40dp"
             android:layout_height="48dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:src="@drawable/ic_youtube" />
 
         <TextView
@@ -60,9 +60,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:text="Videos"
             android:textSize="16sp"
-            android:textStyle="bold"
-            android:text="Videos" />
+            android:textStyle="bold" />
 
 
         <ImageView
@@ -76,10 +76,10 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="297dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_width="313dp"
+        android:layout_height="80dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="36dp"
         android:background="@color/primary_light_50"
         android:elevation="2dp"
@@ -95,10 +95,10 @@
             android:id="@+id/story_image"
             android:layout_width="40dp"
             android:layout_height="48dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:src="@drawable/ic_book" />
 
         <TextView
@@ -107,9 +107,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:text="Stories"
             android:textSize="16sp"
-            android:textStyle="bold"
-            android:text="Stories" />
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="wrap_content"

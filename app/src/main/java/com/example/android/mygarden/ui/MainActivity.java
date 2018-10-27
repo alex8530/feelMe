@@ -156,6 +156,7 @@ public class MainActivity
 
             case R.id.financialSupport:
                 Intent intentfinancialSupport = new Intent(MainActivity.this, patient_facilities.class);
+                intentfinancialSupport.putExtra("isintentfinancialSupport","1");
                 startActivity(intentfinancialSupport);
                 break;
 

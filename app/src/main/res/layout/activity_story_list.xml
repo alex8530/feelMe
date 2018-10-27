@@ -39,7 +39,7 @@
         android:background="@color/primary_light_50"
         android:elevation="2dp"
         android:layoutDirection="locale"
-        android:onClick="onStoryCliced"
+        android:onClick="onStoryCliced_details"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,8 +47,8 @@
 
         <ImageView
             android:id="@+id/peson1"
-            android:layout_width="40dp"
-            android:layout_height="48dp"
+            android:layout_width="83dp"
+            android:layout_height="64dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
@@ -81,22 +81,23 @@
         android:layout_height="75dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/primary_light_50"
         android:elevation="2dp"
         android:layoutDirection="locale"
-        android:onClick="onStoryCliced"
+        android:onClick="onStoryCliced_details"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
         <ImageView
             android:id="@+id/person2"
-            android:layout_width="40dp"
-            android:layout_height="48dp"
+            android:layout_width="85dp"
+            android:layout_height="75dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
@@ -113,7 +114,7 @@
             android:paddingLeft="12dp"
             android:text="Ghadir Kuna   (49 Years)"
             android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="wrap_content"
