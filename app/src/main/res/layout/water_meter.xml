@@ -43,8 +43,7 @@
         tools:text="17" />
 
     <TextView
-        android:textColor="#fff"
-
+        android:textColor="@color/primary"
         android:id="@+id/last_watered_unit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

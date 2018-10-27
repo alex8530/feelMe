@@ -14,15 +14,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="7dp">
-
         <TextView
+            android:background="@drawable/rr"
             android:id="@+id/listview_tamplet"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            tools:text="ad"
+            android:padding="20dp"
             android:textSize="15sp"
             android:textStyle="bold"
-            tools:text="xxxxxxxxxx"
-            />
+            android:textColor="#414143"/>
 
 
     </LinearLayout>

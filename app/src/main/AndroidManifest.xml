@@ -6,7 +6,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/iconf"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -52,7 +52,8 @@
         <activity android:name=".patient_facilities" />
         <activity android:name=".Activity_early_detection" />
         <activity android:name=".AwarenessActivity" />
-        <activity android:name=".activity_story_details"></activity>
+        <activity android:name=".activity_story_details" />
+        <activity android:name=".PhotoActivity"></activity>
     </application>
 
 </manifest>

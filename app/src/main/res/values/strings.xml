@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">FeelME</string>
+    <string name="app_name">OneHand</string>
     <string name="vine">Vine</string>
     <string name="cactus">Cactus</string>
     <string name="extra">New plant</string>
     <string name="title_activity_plant_detail">DrugDetail</string>
-    <string name="title_activity_my_garden">FeelMe</string>
+    <string name="title_activity_my_garden">OneHande</string>
     <string name="days">days</string>
     <string name="hours">hrs</string>
     <string name="minutes">mins</string>

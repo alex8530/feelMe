@@ -9,11 +9,11 @@
 
     <ImageView
         android:id="@+id/listview_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:contentDescription="@string/app_name"
-        android:padding="10dp"
-        android:src="@drawable/vedio"
+        android:scaleType="fitXY"
+        android:src="@drawable/mm"
         />
 
     <LinearLayout
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:textColor="#2dd156"
+            android:textColor="@color/primary"
 
             />
         <TextView

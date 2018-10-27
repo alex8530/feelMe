@@ -47,11 +47,11 @@ public class PlantTypesAdapter extends RecyclerView.Adapter<PlantTypesAdapter.Pl
         Resources res = mContext.getResources();
         mPlantTypes = res.obtainTypedArray(R.array.plant_types);
 
-        listName.add("needle 1");
-        listName.add("needle 2");
-        listName.add("needle 3");
-        listName.add("needle 4");
-        listName.add("needle 5");
+        listName.add("Injection  ");
+        listName.add("Appointment");
+        listName.add("Injection ");
+        listName.add("Injection ");
+        listName.add("Injection ");
     }
 
     /**

@@ -38,12 +38,11 @@ public class patient_facilities extends AppCompatActivity {
     }
 
 
-
-
     public void onRequestClick(View view) {
         Toast.makeText(this, "Request Sent", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(patient_facilities.this , MainActivity.class);
+        Intent intent = new Intent(patient_facilities.this , PhotoActivity.class);
         startActivity(intent);
+
         finish();
     }
 
