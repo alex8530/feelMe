@@ -37,6 +37,7 @@ import android.widget.ImageView;
 
 import com.example.android.mygarden.PlantWateringService;
 import com.example.android.mygarden.R;
+import com.example.android.mygarden.VideoViewActivity;
 
 import static com.example.android.mygarden.PlantWateringService.ACTION_UPDATE_PLANT_WIDGETS;
 import static com.example.android.mygarden.provider.PlantContract.BASE_CONTENT_URI;
@@ -68,6 +69,7 @@ public class MainActivity
         mGardenRecyclerView.setAdapter(mAdapter);
 
         getSupportLoaderManager().initLoader(GARDEN_LOADER_ID, null, this);
+        startActivity(new Intent(this,VideoViewActivity.class).putExtra("index",0));
     }
 
     @Override
