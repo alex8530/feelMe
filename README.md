@@ -1,3 +1,5 @@
+ # The goal of this project was to help women who suffer from cancer, and help them to manage their lives.
+ 
  <img src="https://i.imgur.com/rdxr540.png"  width="200" height="350" /> 
  
 
